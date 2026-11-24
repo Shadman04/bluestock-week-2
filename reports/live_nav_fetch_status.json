@@ -1,4 +1,280 @@
 {
-  "successful_schemes": 6,
-  "failed_schemes": []
+  "fund_master_unique_codes": 40,
+  "attempted_schemes": 40,
+  "successful_schemes": 34,
+  "failed_scheme_count": 6,
+  "failed_schemes": [
+    {
+      "amfi_code": "100016",
+      "master_scheme_name": "HDFC Top 100 Fund - Regular Plan - Growth",
+      "error": "ValueError: API returned no NAV history rows"
+    },
+    {
+      "amfi_code": "100025",
+      "master_scheme_name": "HDFC Short Term Debt Fund - Regular - Growth",
+      "error": "ValueError: API returned no NAV history rows"
+    },
+    {
+      "amfi_code": "118635",
+      "master_scheme_name": "Nippon India ETF Nifty 50 BeES",
+      "error": "ValueError: API returned no NAV history rows"
+    },
+    {
+      "amfi_code": "102886",
+      "master_scheme_name": "UTI Mid Cap Fund - Regular - Growth",
+      "error": "ValueError: API returned no NAV history rows"
+    },
+    {
+      "amfi_code": "102887",
+      "master_scheme_name": "UTI Flexi Cap Fund - Regular - Growth",
+      "error": "ValueError: API returned no NAV history rows"
+    },
+    {
+      "amfi_code": "148568",
+      "master_scheme_name": "Mirae Asset Emerging Bluechip Fund - Regular - Growth",
+      "error": "ValueError: API returned no NAV history rows"
+    }
+  ],
+  "successful_scheme_details": [
+    {
+      "amfi_code": "119551",
+      "master_scheme_name": "SBI Bluechip Fund - Regular Plan - Growth",
+      "api_scheme_name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
+      "nav_rows": 3355,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119552",
+      "master_scheme_name": "SBI Bluechip Fund - Direct Plan - Growth",
+      "api_scheme_name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - MONTHLY DCW Payout",
+      "nav_rows": 3355,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119598",
+      "master_scheme_name": "SBI Small Cap Fund - Regular Plan - Growth",
+      "api_scheme_name": "SBI Large Cap Fund - Direct Plan - Growth",
+      "nav_rows": 3428,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119599",
+      "master_scheme_name": "SBI Small Cap Fund - Direct Plan - Growth",
+      "api_scheme_name": "Sundaram Entertainment Opportunities Fund -Direct Plan - Growth Option",
+      "nav_rows": 873,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119120",
+      "master_scheme_name": "SBI Magnum Gilt Fund - Regular Plan - Growth",
+      "api_scheme_name": "HDFC Conservative Hybrid Fund - Direct Plan - IDCW Quarterly",
+      "nav_rows": 3356,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "125497",
+      "master_scheme_name": "HDFC Top 100 Fund - Direct Plan - Growth",
+      "api_scheme_name": "SBI SMALL CAP FUND - Direct Plan - Growth",
+      "nav_rows": 3212,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "100033",
+      "master_scheme_name": "HDFC Mid-Cap Opportunities Fund - Regular - Growth",
+      "api_scheme_name": "Aditya Birla Sun Life Large & Mid Cap Fund - Regular Plan - GROWTH",
+      "nav_rows": 5081,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "125498",
+      "master_scheme_name": "HDFC Mid-Cap Opportunities Fund - Direct - Growth",
+      "api_scheme_name": "SBI BANKING & PSU DEBT FUND - Regular Plan - Growth",
+      "nav_rows": 3153,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120503",
+      "master_scheme_name": "ICICI Pru Bluechip Fund - Regular - Growth",
+      "api_scheme_name": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
+      "nav_rows": 3427,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120504",
+      "master_scheme_name": "ICICI Pru Bluechip Fund - Direct - Growth",
+      "api_scheme_name": "Axis Midcap Fund - Direct Plan - IDCW Option",
+      "nav_rows": 3427,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120505",
+      "master_scheme_name": "ICICI Pru Midcap Fund - Regular - Growth",
+      "api_scheme_name": "Axis Midcap Fund - Direct Plan - Growth Option",
+      "nav_rows": 3427,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120506",
+      "master_scheme_name": "ICICI Pru Value Discovery Fund - Regular - Growth",
+      "api_scheme_name": "Invesco India Money Market Fund - Direct Plan - Daily IDCW",
+      "nav_rows": 3353,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120507",
+      "master_scheme_name": "ICICI Pru Liquid Fund - Regular - Growth",
+      "api_scheme_name": "Invesco India Money Market Fund - Direct Plan - Growth",
+      "nav_rows": 3353,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "118632",
+      "master_scheme_name": "Nippon India Large Cap Fund - Regular - Growth",
+      "api_scheme_name": "Nippon India Large Cap Fund - Direct Plan - Growth Option",
+      "nav_rows": 3418,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "118633",
+      "master_scheme_name": "Nippon India Large Cap Fund - Direct - Growth",
+      "api_scheme_name": "Nippon India Large Cap Fund - Direct Plan - Bonus Option",
+      "nav_rows": 3417,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "118634",
+      "master_scheme_name": "Nippon India Small Cap Fund - Regular - Growth",
+      "api_scheme_name": "Nippon India Large Cap Fund - Direct Plan - IDCW Option",
+      "nav_rows": 3417,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "118636",
+      "master_scheme_name": "Nippon India Gilt Securities Fund - Regular - Growth",
+      "api_scheme_name": "Edelweiss Liquid Fund-Direct Plan-Growth Option",
+      "nav_rows": 1167,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120841",
+      "master_scheme_name": "Kotak Bluechip Fund - Regular - Growth",
+      "api_scheme_name": "Quant Mid Cap Fund - Direct Plan - Growth Option",
+      "nav_rows": 3421,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120842",
+      "master_scheme_name": "Kotak Emerging Equity Fund - Regular - Growth",
+      "api_scheme_name": "Quant Flexi Cap Fund - Direct Plan - IDCW Option",
+      "nav_rows": 3421,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120843",
+      "master_scheme_name": "Kotak Flexicap Fund - Regular - Growth",
+      "api_scheme_name": "Quant Flexi Cap Fund - Direct Plan - Growth Option",
+      "nav_rows": 3421,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "120844",
+      "master_scheme_name": "Kotak Liquid Fund - Regular - Growth",
+      "api_scheme_name": "Quant Money Market Fund-Dividend Option-Direct Plan",
+      "nav_rows": 1989,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119092",
+      "master_scheme_name": "Axis Bluechip Fund - Regular - Growth",
+      "api_scheme_name": "HDFC Money Market Fund - Direct Plan - Growth Option",
+      "nav_rows": 3684,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119093",
+      "master_scheme_name": "Axis Bluechip Fund - Direct - Growth",
+      "api_scheme_name": "HDFC Money Market Fund - Direct Plan - Daily IDCW Option",
+      "nav_rows": 3684,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119094",
+      "master_scheme_name": "Axis Midcap Fund - Regular - Growth",
+      "api_scheme_name": "HDFC Money Market Fund - Direct Plan - Weekly IDCW Option",
+      "nav_rows": 3684,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "119095",
+      "master_scheme_name": "Axis Small Cap Fund - Regular - Growth",
+      "api_scheme_name": "DSP Focused Fund - Direct Plan - IDCW",
+      "nav_rows": 3420,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "101206",
+      "master_scheme_name": "ABSL Frontline Equity Fund - Regular - Growth",
+      "api_scheme_name": "SBI OVERNIGHT FUND - Regular Plan - Growth",
+      "nav_rows": 7176,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "101207",
+      "master_scheme_name": "ABSL Small Cap Fund - Regular - Growth",
+      "api_scheme_name": "UTI-Fixed Maturity Plan Yearly Series - July 2005-Dividend Option",
+      "nav_rows": 111,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "101208",
+      "master_scheme_name": "ABSL Liquid Fund - Regular - Growth",
+      "api_scheme_name": "UTI-Fixed Maturity Plan Yearly Series - July 2005-Growth Option",
+      "nav_rows": 111,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "102885",
+      "master_scheme_name": "UTI Nifty 50 Index Fund - Regular - Growth",
+      "api_scheme_name": "SBI AGGRESSIVE HYBRID FUND - Regular Plan - Growth",
+      "nav_rows": 5071,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "148567",
+      "master_scheme_name": "Mirae Asset Large Cap Fund - Regular - Growth",
+      "api_scheme_name": "Mahindra Manulife Focused Fund - Direct Plan - Growth",
+      "nav_rows": 1480,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "148569",
+      "master_scheme_name": "Mirae Asset Tax Saver Fund - Regular - Growth",
+      "api_scheme_name": "Mahindra Manulife Focused Fund - Direct Plan - IDCW",
+      "nav_rows": 1480,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "149322",
+      "master_scheme_name": "DSP Top 100 Equity Fund - Regular - Growth",
+      "api_scheme_name": "ITI Banking and Financial Services Fund - Direct Plan - IDCW Option",
+      "nav_rows": 1221,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "149323",
+      "master_scheme_name": "DSP Midcap Fund - Regular - Growth",
+      "api_scheme_name": "ITI Banking and Financial Services Fund - Regular Plan - IDCW Option",
+      "nav_rows": 1221,
+      "name_mismatch": true
+    },
+    {
+      "amfi_code": "149324",
+      "master_scheme_name": "DSP Small Cap Fund - Regular - Growth",
+      "api_scheme_name": "ITI Banking and Financial Services Fund - Regular Plan - Growth Option",
+      "nav_rows": 1221,
+      "name_mismatch": true
+    }
+  ],
+  "coverage_pct": 85.0,
+  "note": "A failed request means the API did not return usable NAV data during this run; it does not by itself prove that an AMFI code is invalid."
 }
