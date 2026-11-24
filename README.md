@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bluestock — Day 1 Data Ingestion
 
 This project organizes and profiles the 10 provided mutual-fund CSV datasets, explores the fund master, validates AMFI codes against the supplied NAV-history file, and fetches live NAV history from MFAPI.
@@ -62,7 +61,6 @@ git branch -M main
 git remote add origin https://github.com/Shadman04/bluestock-week-2.git
 git push -u origin main
 ```
-=======
  Bluestock Week 2 — REST API & JSON Deliverable
 
 ## Project
@@ -102,4 +100,3 @@ The script creates:
 3. JSON parsing
 4. Data inspection and tabular transformation
 5. CSV export with Pandas
->>>>>>> 69e4ca56a9613e80ad6d75676bac9c283408eec7
