@@ -1,0 +1,24 @@
+{
+  "dataset_file": "indian_mutual_fund.csv",
+  "record_count": 3211,
+  "column_count": 5,
+  "columns": [
+    "date",
+    "nav",
+    "scheme_name",
+    "fund_house",
+    "scheme_code"
+  ],
+  "fund_name": "SBI SMALL CAP FUND - Direct Plan - Growth",
+  "fund_house": "SBI Mutual Fund",
+  "scheme_code": 125497,
+  "nav_numeric": true,
+  "missing_values_by_column": {
+    "date": 0,
+    "nav": 0,
+    "scheme_name": 0,
+    "fund_house": 0,
+    "scheme_code": 0
+  },
+  "note": "This validation report is based on the CSV supplied by the user."
+}
