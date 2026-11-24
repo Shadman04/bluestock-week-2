@@ -1,0 +1,350 @@
+[
+  {
+    "file": "01_fund_master.csv",
+    "rows": 40,
+    "columns": 15,
+    "shape": [
+      40,
+      15
+    ],
+    "dtypes": {
+      "amfi_code": "int64",
+      "fund_house": "str",
+      "scheme_name": "str",
+      "category": "str",
+      "sub_category": "str",
+      "plan": "str",
+      "launch_date": "str",
+      "benchmark": "str",
+      "expense_ratio_pct": "float64",
+      "exit_load_pct": "float64",
+      "min_sip_amount": "int64",
+      "min_lumpsum_amount": "int64",
+      "fund_manager": "str",
+      "risk_category": "str",
+      "sebi_category_code": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "02_nav_history.csv",
+    "rows": 3211,
+    "columns": 5,
+    "shape": [
+      3211,
+      5
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "scheme_code": "int64"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "03_aum_by_fund_house.csv",
+    "rows": 90,
+    "columns": 5,
+    "shape": [
+      90,
+      5
+    ],
+    "dtypes": {
+      "date": "str",
+      "fund_house": "str",
+      "aum_lakh_crore": "float64",
+      "aum_crore": "int64",
+      "num_schemes": "int64"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "04_monthly_sip_inflows.csv",
+    "rows": 48,
+    "columns": 6,
+    "shape": [
+      48,
+      6
+    ],
+    "dtypes": {
+      "month": "str",
+      "sip_inflow_crore": "int64",
+      "active_sip_accounts_crore": "float64",
+      "new_sip_accounts_lakh": "float64",
+      "sip_aum_lakh_crore": "float64",
+      "yoy_growth_pct": "float64"
+    },
+    "missing_values": {
+      "yoy_growth_pct": 12
+    },
+    "duplicate_rows": 0
+  },
+  {
+    "file": "05_category_inflows.csv",
+    "rows": 144,
+    "columns": 3,
+    "shape": [
+      144,
+      3
+    ],
+    "dtypes": {
+      "month": "str",
+      "category": "str",
+      "net_inflow_crore": "float64"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "06_industry_folio_count.csv",
+    "rows": 21,
+    "columns": 6,
+    "shape": [
+      21,
+      6
+    ],
+    "dtypes": {
+      "month": "str",
+      "total_folios_crore": "float64",
+      "equity_folios_crore": "float64",
+      "debt_folios_crore": "float64",
+      "hybrid_folios_crore": "float64",
+      "others_folios_crore": "float64"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "07_scheme_performance.csv",
+    "rows": 40,
+    "columns": 19,
+    "shape": [
+      40,
+      19
+    ],
+    "dtypes": {
+      "amfi_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "category": "str",
+      "plan": "str",
+      "return_1yr_pct": "float64",
+      "return_3yr_pct": "float64",
+      "return_5yr_pct": "float64",
+      "benchmark_3yr_pct": "float64",
+      "alpha": "float64",
+      "beta": "float64",
+      "sharpe_ratio": "float64",
+      "sortino_ratio": "float64",
+      "std_dev_ann_pct": "float64",
+      "max_drawdown_pct": "float64",
+      "aum_crore": "int64",
+      "expense_ratio_pct": "float64",
+      "morningstar_rating": "int64",
+      "risk_grade": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "08_investor_transactions.csv",
+    "rows": 32778,
+    "columns": 13,
+    "shape": [
+      32778,
+      13
+    ],
+    "dtypes": {
+      "investor_id": "str",
+      "transaction_date": "str",
+      "amfi_code": "int64",
+      "transaction_type": "str",
+      "amount_inr": "int64",
+      "state": "str",
+      "city": "str",
+      "city_tier": "str",
+      "age_group": "str",
+      "gender": "str",
+      "annual_income_lakh": "float64",
+      "payment_mode": "str",
+      "kyc_status": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "09_portfolio_holdings.csv",
+    "rows": 322,
+    "columns": 8,
+    "shape": [
+      322,
+      8
+    ],
+    "dtypes": {
+      "amfi_code": "int64",
+      "stock_symbol": "str",
+      "stock_name": "str",
+      "sector": "str",
+      "weight_pct": "float64",
+      "market_value_cr": "float64",
+      "current_price_inr": "float64",
+      "portfolio_date": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "10_benchmark_indices.csv",
+    "rows": 8050,
+    "columns": 3,
+    "shape": [
+      8050,
+      3
+    ],
+    "dtypes": {
+      "date": "str",
+      "index_name": "str",
+      "close_value": "float64"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "combined_nav_history.csv",
+    "rows": 20517,
+    "columns": 6,
+    "shape": [
+      20517,
+      6
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "assignment_label": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "NAV_118632.csv",
+    "rows": 3418,
+    "columns": 6,
+    "shape": [
+      3418,
+      6
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "assignment_label": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "NAV_119092.csv",
+    "rows": 3684,
+    "columns": 6,
+    "shape": [
+      3684,
+      6
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "assignment_label": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "NAV_119551.csv",
+    "rows": 3355,
+    "columns": 6,
+    "shape": [
+      3355,
+      6
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "assignment_label": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "NAV_120503.csv",
+    "rows": 3427,
+    "columns": 6,
+    "shape": [
+      3427,
+      6
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "assignment_label": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "NAV_120841.csv",
+    "rows": 3421,
+    "columns": 6,
+    "shape": [
+      3421,
+      6
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "assignment_label": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  },
+  {
+    "file": "NAV_125497.csv",
+    "rows": 3212,
+    "columns": 6,
+    "shape": [
+      3212,
+      6
+    ],
+    "dtypes": {
+      "date": "str",
+      "nav": "float64",
+      "scheme_code": "int64",
+      "scheme_name": "str",
+      "fund_house": "str",
+      "assignment_label": "str"
+    },
+    "missing_values": {},
+    "duplicate_rows": 0
+  }
+]

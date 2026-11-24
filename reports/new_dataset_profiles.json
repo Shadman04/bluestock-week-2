@@ -1,0 +1,233 @@
+{
+  "08_investor_transactions.csv": {
+    "rows": 32778,
+    "columns": [
+      "investor_id",
+      "transaction_date",
+      "amfi_code",
+      "transaction_type",
+      "amount_inr",
+      "state",
+      "city",
+      "city_tier",
+      "age_group",
+      "gender",
+      "annual_income_lakh",
+      "payment_mode",
+      "kyc_status"
+    ],
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "dtypes": {
+      "investor_id": "object",
+      "transaction_date": "object",
+      "amfi_code": "int64",
+      "transaction_type": "object",
+      "amount_inr": "int64",
+      "state": "object",
+      "city": "object",
+      "city_tier": "object",
+      "age_group": "object",
+      "gender": "object",
+      "annual_income_lakh": "float64",
+      "payment_mode": "object",
+      "kyc_status": "object"
+    },
+    "head": [
+      {
+        "investor_id": "INV003054",
+        "transaction_date": "2024-01-01",
+        "amfi_code": 119092,
+        "transaction_type": "SIP",
+        "amount_inr": 1834,
+        "state": "Telangana",
+        "city": "Hyderabad",
+        "city_tier": "T30",
+        "age_group": "56+",
+        "gender": "Female",
+        "annual_income_lakh": 77.1,
+        "payment_mode": "UPI",
+        "kyc_status": "Verified"
+      },
+      {
+        "investor_id": "INV002952",
+        "transaction_date": "2024-01-01",
+        "amfi_code": 148567,
+        "transaction_type": "Redemption",
+        "amount_inr": 392882,
+        "state": "Punjab",
+        "city": "Amritsar",
+        "city_tier": "B30",
+        "age_group": "18-25",
+        "gender": "Male",
+        "annual_income_lakh": 7.1,
+        "payment_mode": "Cheque",
+        "kyc_status": "Verified"
+      },
+      {
+        "investor_id": "INV003420",
+        "transaction_date": "2024-01-01",
+        "amfi_code": 118636,
+        "transaction_type": "SIP",
+        "amount_inr": 912,
+        "state": "Haryana",
+        "city": "Faridabad",
+        "city_tier": "B30",
+        "age_group": "36-45",
+        "gender": "Male",
+        "annual_income_lakh": 47.2,
+        "payment_mode": "Mandate",
+        "kyc_status": "Verified"
+      },
+      {
+        "investor_id": "INV003436",
+        "transaction_date": "2024-01-01",
+        "amfi_code": 118634,
+        "transaction_type": "SIP",
+        "amount_inr": 1102,
+        "state": "Maharashtra",
+        "city": "Mumbai",
+        "city_tier": "T30",
+        "age_group": "36-45",
+        "gender": "Female",
+        "annual_income_lakh": 54.4,
+        "payment_mode": "Cheque",
+        "kyc_status": "Pending"
+      },
+      {
+        "investor_id": "INV004691",
+        "transaction_date": "2024-01-01",
+        "amfi_code": 119094,
+        "transaction_type": "Lumpsum",
+        "amount_inr": 8682,
+        "state": "Delhi",
+        "city": "Noida",
+        "city_tier": "T30",
+        "age_group": "26-35",
+        "gender": "Male",
+        "annual_income_lakh": 14.5,
+        "payment_mode": "Net Banking",
+        "kyc_status": "Pending"
+      }
+    ]
+  },
+  "09_portfolio_holdings.csv": {
+    "rows": 322,
+    "columns": [
+      "amfi_code",
+      "stock_symbol",
+      "stock_name",
+      "sector",
+      "weight_pct",
+      "market_value_cr",
+      "current_price_inr",
+      "portfolio_date"
+    ],
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "dtypes": {
+      "amfi_code": "int64",
+      "stock_symbol": "object",
+      "stock_name": "object",
+      "sector": "object",
+      "weight_pct": "float64",
+      "market_value_cr": "float64",
+      "current_price_inr": "float64",
+      "portfolio_date": "object"
+    },
+    "head": [
+      {
+        "amfi_code": 119551,
+        "stock_symbol": "POWERGRID",
+        "stock_name": "Power Grid Corporation",
+        "sector": "Utilities",
+        "weight_pct": 13.85,
+        "market_value_cr": 737.09,
+        "current_price_inr": 6011.08,
+        "portfolio_date": "2025-12-31"
+      },
+      {
+        "amfi_code": 119551,
+        "stock_symbol": "HDFCBANK",
+        "stock_name": "HDFC Bank Ltd",
+        "sector": "Banking",
+        "weight_pct": 11.19,
+        "market_value_cr": 88.97,
+        "current_price_inr": 1074.65,
+        "portfolio_date": "2025-12-31"
+      },
+      {
+        "amfi_code": 119551,
+        "stock_symbol": "GRASIM",
+        "stock_name": "Grasim Industries Ltd",
+        "sector": "Diversified",
+        "weight_pct": 9.9,
+        "market_value_cr": 208.45,
+        "current_price_inr": 5964.59,
+        "portfolio_date": "2025-12-31"
+      },
+      {
+        "amfi_code": 119551,
+        "stock_symbol": "DRREDDY",
+        "stock_name": "Dr. Reddy's Laboratories",
+        "sector": "Pharma",
+        "weight_pct": 4.76,
+        "market_value_cr": 161.32,
+        "current_price_inr": 3748.82,
+        "portfolio_date": "2025-12-31"
+      },
+      {
+        "amfi_code": 119551,
+        "stock_symbol": "ASIANPAINT",
+        "stock_name": "Asian Paints Ltd",
+        "sector": "Paints",
+        "weight_pct": 10.25,
+        "market_value_cr": 725.9,
+        "current_price_inr": 1321.45,
+        "portfolio_date": "2025-12-31"
+      }
+    ]
+  },
+  "10_benchmark_indices.csv": {
+    "rows": 8050,
+    "columns": [
+      "date",
+      "index_name",
+      "close_value"
+    ],
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "dtypes": {
+      "date": "object",
+      "index_name": "object",
+      "close_value": "float64"
+    },
+    "head": [
+      {
+        "date": "2022-01-03",
+        "index_name": "NIFTY50",
+        "close_value": 17492.79
+      },
+      {
+        "date": "2022-01-04",
+        "index_name": "NIFTY50",
+        "close_value": 17689.64
+      },
+      {
+        "date": "2022-01-05",
+        "index_name": "NIFTY50",
+        "close_value": 17835.05
+      },
+      {
+        "date": "2022-01-06",
+        "index_name": "NIFTY50",
+        "close_value": 17878.51
+      },
+      {
+        "date": "2022-01-07",
+        "index_name": "NIFTY50",
+        "close_value": 17759.15
+      }
+    ]
+  }
+}

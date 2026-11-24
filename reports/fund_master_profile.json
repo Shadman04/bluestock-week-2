@@ -1,0 +1,51 @@
+{
+  "fund_house": {
+    "unique_count": 10,
+    "values": [
+      "Aditya Birla Sun Life MF",
+      "Axis Mutual Fund",
+      "DSP Mutual Fund",
+      "HDFC Mutual Fund",
+      "ICICI Prudential MF",
+      "Kotak Mahindra MF",
+      "Mirae Asset MF",
+      "Nippon India MF",
+      "SBI Mutual Fund",
+      "UTI Mutual Fund"
+    ]
+  },
+  "category": {
+    "unique_count": 2,
+    "values": [
+      "Debt",
+      "Equity"
+    ]
+  },
+  "sub_category": {
+    "unique_count": 12,
+    "values": [
+      "ELSS",
+      "Flexi Cap",
+      "Gilt",
+      "Index",
+      "Index/ETF",
+      "Large & Mid Cap",
+      "Large Cap",
+      "Liquid",
+      "Mid Cap",
+      "Short Duration",
+      "Small Cap",
+      "Value"
+    ]
+  },
+  "risk_category": {
+    "unique_count": 5,
+    "values": [
+      "High",
+      "Low",
+      "Moderate",
+      "Moderately High",
+      "Very High"
+    ]
+  }
+}
